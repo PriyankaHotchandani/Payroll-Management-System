@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 //multiple inheritance through interfaces
 //ActionListener performs some action like submission, deletion, etc.
-//ItemListener is used for choices where selecting on a choice performs some action
+//ItemListener is used for choices where selecting a choice performs some action
 public class Update_employee extends JFrame implements ActionListener, ItemListener{
     JLabel l1,l2,l3,l4,l5,l6,l7,emp;
     JTextField t1,t3,t4,t5,t6,t7;
