@@ -45,8 +45,8 @@ public class login extends JFrame implements ActionListener{
         add(p4,BorderLayout.SOUTH);
 
       
-        setSize(400,250);
-        setLocation(600,400);	
+        setSize(1920,1080);
+        //setLocation(600,400);	
         setVisible(true);
 
     }
