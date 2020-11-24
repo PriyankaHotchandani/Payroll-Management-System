@@ -25,25 +25,25 @@ public class Salary extends JFrame implements ActionListener{
             }
         }catch(Exception e){ }
        
-        add(new JLabel("Select Empno"));
+        add(new JLabel("Select Employee ID"));
         add(c2);
         
-        l1 = new JLabel("HRA");
+        l1 = new JLabel("HRA (House Rent Allowance)");
         t1 = new JTextField(15);
         add(l1);
         add(t1);
        
-        l3 = new JLabel("DA");
+        l3 = new JLabel("DA (Dearness Allowance)");
         t3 = new JTextField(15);
         add(l3);
         add(t3);
         
-        l4 = new JLabel("MED");
+        l4 = new JLabel("MED (Medical Reimbursement)");
         t4 = new JTextField(15);
         add(l4);
         add(t4); 
        
-        l5 = new JLabel("PF");
+        l5 = new JLabel("PF (Provident Fund)");
         t5 = new JTextField(15);
         add(l5);
         add(t5);
@@ -68,12 +68,12 @@ public class Salary extends JFrame implements ActionListener{
         b2.addActionListener(this);
         
         
-        setSize(450,550);
+        setSize(900,700);
         setLocation(500,200);
         setVisible(true);
        
         
-        getContentPane().setBackground(Color.WHITE);
+        //getContentPane().setBackground(Color.WHITE);
        
     }
     
