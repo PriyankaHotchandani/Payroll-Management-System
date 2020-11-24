@@ -30,14 +30,14 @@ public class login extends JFrame implements ActionListener{
 
 
  
-        add(l,BorderLayout.WEST);
+        add(l,BorderLayout.CENTER);
 
 
         p2.add(new JLabel("User Name  "));
         p2.add(t1);
         p2.add(new JLabel("Password "));
         p2.add(t2);
-        add(p2,BorderLayout.CENTER);
+        add(p2,BorderLayout.NORTH);
 
         p4.add(b1);
         p4.add(b2);
